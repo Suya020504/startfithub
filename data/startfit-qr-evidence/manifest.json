@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-07-04",
+  "sourceSite": "https://startfithub.vercel.app",
+  "liveMvpSource": "https://startfit-web.vercel.app/founder/dashboard/programs",
+  "counts": {
+    "diagnosisScreens": 28,
+    "dashboardScreens": 20,
+    "totalScreens": 48
+  },
+  "files": {
+    "diagnosisCsv": "diagnosis-process/diagnosis-process-index.csv",
+    "diagnosisJson": "diagnosis-process/diagnosis-process-index.json",
+    "diagnosisMarkdown": "diagnosis-process/README.md",
+    "dashboardCsv": "dashboard-features/dashboard-features-index.csv",
+    "dashboardJson": "dashboard-features/dashboard-features-index.json",
+    "dashboardMarkdown": "dashboard-features/README.md",
+    "report": "APPENDIX_CONTENT_REPORT.md"
+  }
+}

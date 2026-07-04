@@ -1,0 +1,608 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>StartFit 보조 자료 허브</title>
+    <meta
+      name="description"
+      content="StartFit 발표 QR 보조 자료 허브. 최신 MVP 진단 과정, 대시보드 세부 탭, 데이터 기준, 검증 결과와 신뢰 장치를 정리했습니다."
+    />
+    <meta name="theme-color" content="#3166ff" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="StartFit 보조 자료 허브 홈">
+        <span class="brand-mark" aria-hidden="true">S</span>
+        <strong>StartFit</strong>
+      </a>
+      <nav class="desktop-nav" aria-label="주요 섹션">
+        <a href="#overview">개요</a>
+        <a href="#diagnosis">진단 과정</a>
+        <a href="#dashboard">대시보드 기능</a>
+        <a href="#tech-info">기술 영역</a>
+        <a href="#validation">진단 결과 예시</a>
+        <a href="#data">데이터 기준</a>
+        <a href="#safety">신뢰와 안전</a>
+        <a href="#faq">자주 묻는 질문</a>
+      </nav>
+      <button class="menu-button" type="button" aria-controls="mobile-menu" aria-expanded="false">메뉴</button>
+    </header>
+
+    <nav id="mobile-menu" class="mobile-menu" aria-label="섹션 메뉴" hidden>
+      <a href="#overview">개요</a>
+      <a href="#diagnosis">진단 과정</a>
+      <a href="#dashboard">대시보드 기능</a>
+      <a href="#tech-info">기술 영역</a>
+      <a href="#validation">진단 결과 예시</a>
+      <a href="#data">데이터 기준</a>
+      <a href="#safety">신뢰와 안전</a>
+      <a href="#faq">자주 묻는 질문</a>
+    </nav>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy">
+          <h1>StartFit 보조 자료 허브</h1>
+          <p>발표에서 다 보여드리지 못한 MVP 화면, 진단 흐름, 데이터 기준, 검증 결과를 QR로 확인할 수 있게 정리했습니다.</p>
+          <aside class="hero-note">
+            StartFit은 예비창업자의 아이디어와 사업계획 데이터를 바탕으로 창업 준비도, 정책금융 준비도, 기관 연결 가능성을 진단하는 서비스입니다.
+          </aside>
+        </div>
+        <div class="hero-media" aria-label="StartFit 대시보드 미리보기">
+          <div class="browser-frame">
+            <img src="./assets/live/dashboard-view/01-dashboard.png" alt="StartFit 대시보드 화면" />
+          </div>
+          <div class="phone-frame">
+            <img src="./assets/live/hero-mobile-dashboard.png" alt="StartFit 모바일 대시보드 화면" />
+          </div>
+        </div>
+      </section>
+
+      <section id="overview" class="section-shell section-block">
+        <div class="section-heading">
+          <span>개요</span>
+          <h2>StartFit MVP가 어떤 정보로 구성되어 있는지 한눈에 정리했습니다.</h2>
+          <p>진단 점수, 5대 준비도, 진단 흐름, 신뢰 장치를 발표 보조 자료 관점에서 요약했습니다.</p>
+        </div>
+        <div class="tab-shell">
+          <div class="tab-list" role="tablist" aria-label="개요 탭">
+            <button class="tab-button active" type="button" role="tab" aria-selected="true" data-overview-tab="score" data-anchor="overview-score">진단 점수 구조</button>
+            <button class="tab-button" type="button" role="tab" aria-selected="false" data-overview-tab="readiness" data-anchor="overview-readiness">5대 준비도</button>
+            <button class="tab-button" type="button" role="tab" aria-selected="false" data-overview-tab="flow" data-anchor="overview-flow">진단 흐름</button>
+            <button class="tab-button" type="button" role="tab" aria-selected="false" data-overview-tab="trust" data-anchor="overview-trust">신뢰와 안전</button>
+          </div>
+          <article class="tab-panel active" data-overview-panel="score">
+            <h3>진단 점수 구조</h3>
+            <p>사용자 입력, 사업계획서 텍스트, 고객검증 신호, 자금 상태, 기관 연결 조건을 분석해 보완 우선순위를 제안합니다.</p>
+            <div class="process-cards">
+              <article><strong>데이터 입력</strong><span>창업 단계, 업종, 지역, MVP, 고객검증, 자금</span></article>
+              <article><strong>AI 분석</strong><span>사업계획서와 정량 입력을 함께 구조화</span></article>
+              <article><strong>준비도 점수화</strong><span>성장성, 안정성, 시장검증도 등 5대 영역</span></article>
+              <article><strong>보완 액션</strong><span>지원기관 연결 전 필요한 우선 과제 제안</span></article>
+            </div>
+          </article>
+          <article class="tab-panel" data-overview-panel="readiness">
+            <h3>5대 준비도</h3>
+            <div class="metric-grid">
+              <article><strong>성장성</strong><span>시장 크기, 차별성, 확장 가능성</span></article>
+              <article><strong>안정성</strong><span>런웨이, 비용 구조, 매출 계획</span></article>
+              <article><strong>시장검증도</strong><span>고객 인터뷰, 구매 의사, 실제 반응</span></article>
+              <article><strong>실행준비도</strong><span>MVP, 팀 역량, 실행 계획</span></article>
+              <article><strong>정책금융 준비도</strong><span>사업계획서, 자금 사용계획, 기관 제출 준비</span></article>
+            </div>
+          </article>
+          <article class="tab-panel" data-overview-panel="flow">
+            <h3>진단 흐름</h3>
+            <p>진단은 입력을 받는 데서 끝나지 않고, 기관 추천과 상담 연결까지 이어지는 구조입니다.</p>
+            <div class="flow-line">
+              <span>저장·공유 동의</span>
+              <span>창업 정보 입력</span>
+              <span>시장·자금 검증</span>
+              <span>사업계획서 구조화</span>
+              <span>지원기관 추천</span>
+            </div>
+          </article>
+          <article class="tab-panel" data-overview-panel="trust">
+            <h3>신뢰와 안전</h3>
+            <div class="metric-grid">
+              <article><strong>Privacy Guard</strong><span>민감정보 감지와 마스킹</span></article>
+              <article><strong>공유 범위 선택</strong><span>기관 공유 전 동의 범위 분리</span></article>
+              <article><strong>사람의 최종 판단</strong><span>AI는 의사결정 보조 자료로 사용</span></article>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="diagnosis" class="section-shell section-block">
+        <div class="section-heading">
+          <span>진단 과정</span>
+          <h2>진단 시작부터 지원기관 추천 과정까지 최신 화면으로 정리했습니다.</h2>
+          <p>live StartFit 페이지에서 확인한 저장 방식, 공유 범위, 창업 정보, MVP 링크, 시장검증·자금, 사업계획서, 기관 연결 준비와 지원기관 추천 화면입니다.</p>
+        </div>
+        <div class="journey-shell" data-journey-root>
+          <div class="journey-main-tabs" role="tablist" aria-label="진단 큰 흐름" data-journey-groups></div>
+          <div class="journey-sub-tabs" role="tablist" aria-label="선택한 흐름의 세부 화면" data-journey-steps></div>
+
+          <div class="journey-content">
+            <article class="journey-screen-card">
+              <div class="journey-screen-toolbar">
+                <span data-journey-count>1 / 28</span>
+                <button class="secondary-action" type="button" data-open-current-image>큰 화면 보기</button>
+              </div>
+              <button class="journey-screen" type="button" data-open-current-image aria-label="현재 진단 화면 크게 보기">
+                <img data-journey-image src="./assets/live/diagnosis-journey/01-storage-mode.png" alt="입력 데이터 저장 방식 선택 화면" />
+              </button>
+            </article>
+
+            <aside class="journey-detail">
+              <span class="journey-eyebrow" data-journey-eyebrow>AI 진단 · 저장 방식</span>
+              <h3 data-journey-title>입력 데이터의 저장 방식을 선택</h3>
+              <p data-journey-caption>진단 이력을 일회성으로 볼지, 이후 추천과 성장 추적에 계속 활용할지 결정합니다.</p>
+              <dl class="journey-meta">
+                <dt>입력</dt>
+                <dd data-journey-input>저장 방식, 개인정보 처리 안내 확인</dd>
+                <dt>결과</dt>
+                <dd data-journey-output>진단 데이터 관리 기준 확정</dd>
+                <dt>다음 행동</dt>
+                <dd data-journey-next-text>기관 공유 범위 선택</dd>
+                <dt>live 경로</dt>
+                <dd data-journey-route>/founder/diagnosis/storage</dd>
+              </dl>
+              <div class="journey-actions">
+                <button class="secondary-action" type="button" data-journey-prev>이전 화면</button>
+                <button class="primary-action" type="button" data-journey-next>다음 화면</button>
+              </div>
+            </aside>
+          </div>
+
+          <div class="journey-flow-map" aria-label="현재 큰 흐름의 세부 흐름도" data-journey-flow></div>
+        </div>
+
+        <div class="type-explainer">
+          <div class="type-explainer-heading">
+            <span>유형별 분류 설명</span>
+            <h3>최종 유형은 점수가 아니라 다음 행동을 정하는 언어입니다.</h3>
+            <p>같은 점수라도 부족한 근거가 다르면 먼저 보완해야 할 액션이 달라집니다. StartFit은 5대 준비도와 근거 부족 항목을 함께 보고 창업자의 현재 상태를 유형으로 번역합니다.</p>
+          </div>
+          <div class="type-grid" data-founder-types></div>
+        </div>
+      </section>
+
+      <section id="dashboard" class="section-shell section-block">
+        <div class="section-heading">
+          <span>대시보드 기능</span>
+          <h2>상단 탭과 세부 탭의 역할을 화면별로 분류했습니다.</h2>
+          <p>live 대시보드에서 확인한 탭 구조와 각 탭의 역할을 정리했습니다.</p>
+        </div>
+        <div class="feature-tabs" role="tablist" aria-label="대시보드 기능 탭">
+          <button class="feature-tab active" type="button" role="tab" aria-selected="true" data-feature-tab="summary" data-anchor="dashboard-summary">대시보드</button>
+          <button class="feature-tab" type="button" role="tab" aria-selected="false" data-feature-tab="ai" data-anchor="dashboard-ai">AI 진단</button>
+          <button class="feature-tab" type="button" role="tab" aria-selected="false" data-feature-tab="org" data-anchor="dashboard-org">기관 추천</button>
+          <button class="feature-tab" type="button" role="tab" aria-selected="false" data-feature-tab="programs" data-anchor="dashboard-programs">지원사업 추천</button>
+          <button class="feature-tab" type="button" role="tab" aria-selected="false" data-feature-tab="consult" data-anchor="dashboard-consult">상담 관리</button>
+          <button class="feature-tab" type="button" role="tab" aria-selected="false" data-feature-tab="growth" data-anchor="dashboard-growth">성장 추적</button>
+          <button class="feature-tab" type="button" role="tab" aria-selected="false" data-feature-tab="mypage" data-anchor="dashboard-mypage">마이페이지</button>
+        </div>
+        <div class="feature-panels">
+          <article class="feature-panel active" data-feature-panel="summary">
+            <div class="feature-media"><img class="feature-main-image" src="./assets/live/dashboard-view/01-dashboard.png" alt="대시보드 요약 화면" /></div>
+            <div class="feature-copy"><h3>대시보드</h3><p>현재 창업 단계, 준비도 요약, 보완 액션, 기관 추천 가능성을 한 화면에서 확인합니다.</p><dl class="detail-list"><dt>주요 정보</dt><dd>AI 진단 요약, 부족 항목 TOP 3, 이번 주 보완 액션, 아이디어 버전 변화</dd><dt>역할</dt><dd>사용자가 지금 가장 먼저 보완해야 할 항목을 파악하는 출발 화면</dd></dl></div>
+          </article>
+          <article class="feature-panel" data-feature-panel="ai">
+            <div class="feature-media">
+              <img class="feature-main-image" src="./assets/live/ai-diagnosis-view/01-idea-input.png" alt="AI 진단 아이디어 입력 화면" />
+              <div class="shot-tabs" aria-label="AI 진단 세부 화면">
+                <button class="shot-tab active" type="button" data-anchor="dashboard-ai-idea" data-shot-src="./assets/live/ai-diagnosis-view/01-idea-input.png" data-shot-alt="AI 진단 아이디어 입력 화면">아이디어 입력</button>
+                <button class="shot-tab" type="button" data-anchor="dashboard-ai-multiagent" data-shot-src="./assets/live/ai-diagnosis-view/02-multiagent-result.png" data-shot-alt="Multi-Agent 진단 결과 화면">Multi-Agent 결과</button>
+                <button class="shot-tab" type="button" data-anchor="dashboard-ai-pmf" data-shot-src="./assets/live/ai-diagnosis-view/03-pmf-validation.png" data-shot-alt="PMF 검증 화면">PMF 검증</button>
+                <button class="shot-tab" type="button" data-anchor="dashboard-ai-risk" data-shot-src="./assets/live/ai-diagnosis-view/04-risk-heatmap.png" data-shot-alt="리스크 히트맵 화면">리스크 히트맵</button>
+              </div>
+            </div>
+            <div class="feature-copy">
+              <h3>AI 진단</h3>
+              <p>아이디어 입력부터 Multi-Agent 결과, PMF 검증, 리스크 히트맵까지 창업 아이디어를 보완하고 검증합니다.</p>
+              <div class="substep-list" aria-label="AI 진단 세부 단계 설명">
+                <article><strong>아이디어 입력</strong><span>Privacy Guard로 민감정보를 먼저 점검하고 기본 정보를 정리합니다.</span></article>
+                <article><strong>Multi-Agent 진단</strong><span>시장, BM, 지원사업 매칭 에이전트가 5대 준비도와 보완 액션을 분석합니다.</span></article>
+                <article><strong>PMF 검증</strong><span>가상 고객 5명의 반응으로 문제 공감도, 구매 의향, 도입 장벽을 확인합니다.</span></article>
+                <article><strong>리스크 히트맵</strong><span>12대 위험 영역을 발생 가능성과 영향도로 분류해 우선 대응 리스크를 보여줍니다.</span></article>
+              </div>
+              <dl class="detail-list"><dt>세부 탭/경로</dt><dd>아이디어 입력, Multi-Agent 결과, PMF 검증, 리스크 히트맵</dd><dt>역할</dt><dd>입력 데이터를 안전하게 구조화한 뒤 진단 결과, 고객 반응, 위험요인을 다음 액션으로 연결합니다.</dd></dl>
+            </div>
+          </article>
+          <article class="feature-panel" data-feature-panel="org">
+            <div class="feature-media"><img class="feature-main-image" src="./assets/live/dashboard-view/03-org-check.png" alt="기관 연결 조건 검사 화면" /><div class="shot-tabs" aria-label="기관 추천 세부 화면"><button class="shot-tab active" type="button" data-shot-src="./assets/live/dashboard-view/03-org-check.png" data-shot-alt="기관 연결 조건 검사 화면">연결 조건</button><button class="shot-tab" type="button" data-shot-src="./assets/live/dashboard-view/04-org-map.png" data-shot-alt="기관 지도 추천 화면">기관 지도</button><button class="shot-tab" type="button" data-shot-src="./assets/live/dashboard-view/05-org-detail.png" data-shot-alt="기관 상세와 매칭 요청 화면">매칭 요청</button></div></div>
+            <div class="feature-copy"><h3>기관 추천</h3><p>기관 연결 가능성을 먼저 검사하고, 위치·적합도·공유 정보 기준으로 추천기관을 탐색합니다.</p><dl class="detail-list"><dt>세부 탭/경로</dt><dd>연결 조건 검사, 기관 지도 추천, 기관 상세/매칭 요청서</dd><dt>역할</dt><dd>진단 결과를 실제 상담 연결과 지원사업 탐색으로 전환합니다.</dd></dl></div>
+          </article>
+          <article class="feature-panel" data-feature-panel="programs">
+            <div class="feature-media"><img class="feature-main-image" src="./assets/live/dashboard-view/06-programs-all.png" alt="지원사업 추천 전체 화면" /><div class="shot-tabs" aria-label="지원사업 추천 세부 필터"><button class="shot-tab active" type="button" data-anchor="dashboard-programs-all" data-shot-src="./assets/live/dashboard-view/06-programs-all.png" data-shot-alt="지원사업 추천 전체 화면">전체</button><button class="shot-tab" type="button" data-anchor="dashboard-programs-business" data-shot-src="./assets/live/dashboard-view/07-programs-business.png" data-shot-alt="사업화 지원사업 추천 화면">사업화</button><button class="shot-tab" type="button" data-anchor="dashboard-programs-policy" data-shot-src="./assets/live/dashboard-view/08-programs-policy-fund.png" data-shot-alt="정책자금 지원사업 추천 화면">정책자금</button><button class="shot-tab" type="button" data-anchor="dashboard-programs-rnd" data-shot-src="./assets/live/dashboard-view/09-programs-rnd.png" data-shot-alt="R&D 지원사업 추천 화면">R&D</button><button class="shot-tab" type="button" data-anchor="dashboard-programs-mentoring" data-shot-src="./assets/live/dashboard-view/10-programs-mentoring.png" data-shot-alt="교육 멘토링 지원사업 추천 화면">교육·멘토링</button></div></div>
+            <div class="feature-copy"><h3>지원사업 추천</h3><p>AI 진단 결과를 기준으로 신청 가능한 지원사업을 적합도와 마감 우선순위로 정렬합니다.</p><dl class="detail-list"><dt>세부 필터</dt><dd>전체, 사업화, 정책자금, R&D, 교육·멘토링</dd><dt>주요 정보</dt><dd>적합도, 마감 D-day, 지원 한도, AI 추천 이유, 신청 준비 체크리스트</dd><dt>역할</dt><dd>진단 결과를 실제 지원사업 신청 준비와 보완 과제로 연결합니다.</dd></dl></div>
+          </article>
+          <article class="feature-panel" data-feature-panel="consult">
+            <div class="feature-media"><img class="feature-main-image" src="./assets/live/dashboard-tabs/consult-summary.png" alt="상담 요약 화면" /><div class="shot-tabs" aria-label="상담 관리 세부 탭"><button class="shot-tab active" type="button" data-shot-src="./assets/live/dashboard-tabs/consult-summary.png" data-shot-alt="상담 요약 화면">요약</button><button class="shot-tab" type="button" data-shot-src="./assets/live/dashboard-tabs/consult-action.png" data-shot-alt="상담 액션 화면">액션</button><button class="shot-tab" type="button" data-shot-src="./assets/live/dashboard-tabs/consult-glossary.png" data-shot-alt="상담 용어 해석 화면">용어 해석</button><button class="shot-tab" type="button" data-shot-src="./assets/live/dashboard-tabs/consult-feedback.png" data-shot-alt="기관 피드백 화면">기관 피드백</button></div></div>
+            <div class="feature-copy"><h3>상담 관리</h3><p>기관 상담 이후 기록, 액션, 용어 해석, 기관 피드백을 관리합니다.</p><dl class="detail-list"><dt>세부 탭</dt><dd>요약, 액션, 용어 해석, 기관 피드백</dd><dt>역할</dt><dd>상담 내용을 다음 실행 과제로 바꿔 추적합니다.</dd></dl></div>
+          </article>
+          <article class="feature-panel" data-feature-panel="growth">
+            <div class="feature-media"><img class="feature-main-image" src="./assets/live/dashboard-view/11-growth-monthly.png" alt="성장 추적 월간 화면" /><div class="shot-tabs" aria-label="성장 추적 세부 화면"><button class="shot-tab active" type="button" data-shot-src="./assets/live/dashboard-view/11-growth-monthly.png" data-shot-alt="성장 추적 월간 화면">월간 추적</button><button class="shot-tab" type="button" data-shot-src="./assets/live/dashboard-view/12-growth-peers.png" data-shot-alt="유사 창업팀 비교 화면">시장 내 위치</button></div></div>
+            <div class="feature-copy"><h3>성장 추적</h3><p>3·6·9·12개월 단위로 점수와 지표 변화를 추적하고 유사 창업팀과 비교합니다.</p><dl class="detail-list"><dt>세부 탭</dt><dd>월간 추적, 시장 내 위치</dd><dt>역할</dt><dd>진단 이후 실제 성장 변화와 보완 성과를 관리합니다.</dd></dl></div>
+          </article>
+          <article class="feature-panel" data-feature-panel="mypage">
+            <div class="feature-media"><img class="feature-main-image" src="./assets/live/dashboard-view/13-mypage.png" alt="마이페이지 화면" /></div>
+            <div class="feature-copy"><h3>마이페이지</h3><p>아이디어 버전, 진단 점수 변화, 공유 설정, PDF 내보내기를 관리합니다.</p><dl class="detail-list"><dt>주요 정보</dt><dd>버전 타임라인, 버전 비교, 점수 변화, 공유 이력</dd><dt>역할</dt><dd>진단 결과를 포트폴리오와 기관 제출 자료로 관리하는 개인 작업실입니다.</dd></dl></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="tech-info" class="section-shell section-block tech-info-section">
+        <div class="section-heading">
+          <span>정보 제공</span>
+          <h2>AI 기술영역을 추천 신뢰성 관점으로 정리했습니다.</h2>
+          <p>StartFit의 AI는 단순 생성형 답변이 아니라, 입력 데이터 구조화, 조건 필터링, 검색, 재정렬, 근거 기반 설명 생성을 단계적으로 수행합니다.</p>
+        </div>
+
+        <div class="tech-summary-grid" aria-label="AI 기술영역 요약">
+          <article>
+            <span>01</span>
+            <h3>AI 진단</h3>
+            <p>아이디어 입력, 추가 질문, Multi-Agent 평가, PMF 검증, 리스크 분석으로 창업 아이템의 보완 지점을 구조화합니다.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>지원사업 추천 RAG</h3>
+            <p>하드 조건 필터링, 하이브리드 검색, Cross-Encoder 재정렬로 지원 불가 공고와 Hallucination 가능성을 줄입니다.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>기관 추천 스코어링</h3>
+            <p>위치, 행정 규정, 기술 정합성, 창업 단계, 공간 수요를 반영해 실제 연결 가능성이 높은 기관을 우선 추천합니다.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>공개 범위 관리</h3>
+            <p>심사위원에게는 신뢰 구조를 공개하되, 세부 랭킹 보정과 내부 프롬프트는 서비스 핵심 자산으로 보호합니다.</p>
+          </article>
+        </div>
+
+        <div class="tech-tab-shell">
+          <div class="tech-tabs" role="tablist" aria-label="AI 기술영역 세부 탭">
+            <button class="tech-tab active" type="button" role="tab" aria-selected="true" data-tech-tab="diagnosis" data-anchor="tech-ai-diagnosis">AI 진단</button>
+            <button class="tech-tab" type="button" role="tab" aria-selected="false" data-tech-tab="rag" data-anchor="tech-rag">지원사업 RAG</button>
+            <button class="tech-tab" type="button" role="tab" aria-selected="false" data-tech-tab="scoring" data-anchor="tech-scoring">기관 스코어링</button>
+            <button class="tech-tab" type="button" role="tab" aria-selected="false" data-tech-tab="disclosure" data-anchor="tech-disclosure">공개 범위</button>
+          </div>
+
+          <article class="tech-panel active" data-tech-panel="diagnosis">
+            <div class="tech-panel-heading">
+              <span>AI Diagnosis</span>
+              <h3>아이디어를 점수와 보완 액션으로 바꾸는 진단 구조</h3>
+              <p>사용자의 창업 아이디어를 한 번 평가하고 끝내지 않고, 부족한 정보를 추가 질문으로 보완한 뒤 여러 관점의 AI Agent가 평가합니다.</p>
+            </div>
+            <div class="tech-flow-row">
+              <article><strong>아이디어 입력</strong><span>사업 개요, 타깃 고객, 문제 정의, MVP 현황 입력</span></article>
+              <article><strong>추가 질문</strong><span>부족한 고객·시장·차별화 근거를 대화형으로 수집</span></article>
+              <article><strong>Multi-Agent</strong><span>시장성, 기술성, 수익모델, 리스크, 심사위원 관점 평가</span></article>
+              <article><strong>PMF·리스크</strong><span>가상 고객 반응과 위험요인을 실행 과제로 변환</span></article>
+            </div>
+            <div class="tech-agent-grid">
+              <article><h4>시장성 Agent</h4><p>고객 문제가 충분히 큰지, 타깃 고객과 실제 수요가 명확한지 평가합니다.</p></article>
+              <article><h4>기술성 Agent</h4><p>MVP 구현 가능성, AI 적용 현실성, 데이터 확보 가능성을 점검합니다.</p></article>
+              <article><h4>수익모델 Agent</h4><p>B2B/B2C 적합성, 가격 정책, 지속 가능한 수익구조를 분석합니다.</p></article>
+              <article><h4>심사위원 Agent</h4><p>발표에서 받을 가능성이 높은 질문과 사업계획서의 약점을 도출합니다.</p></article>
+            </div>
+          </article>
+
+          <article class="tech-panel" data-tech-panel="rag">
+            <div class="tech-panel-heading">
+              <span>RAG Recommendation</span>
+              <h3>지원사업 추천은 RAG 기반 4단계로 신뢰도를 높입니다.</h3>
+              <p>공고문을 LLM에 그대로 넣는 방식이 아니라, 지원 가능 조건을 먼저 차단하고 검색과 재정렬을 거쳐 가장 Fit한 공고만 설명 생성에 사용합니다.</p>
+            </div>
+            <div class="tech-step-list">
+              <article>
+                <span>STEP 1</span>
+                <h4>메타데이터 사전 필터링</h4>
+                <p>나이, 지역, 기창업 여부와 공고문의 하드 조건을 SQL 쿼리단에서 대조해 원천적으로 지원 불가한 공고를 차단합니다.</p>
+              </article>
+              <article>
+                <span>STEP 2</span>
+                <h4>희소-밀집 하이브리드 검색</h4>
+                <p>Dense 검색으로 사업계획서 문맥과 맞는 공고를 찾고, BM25 기반 Sparse 검색으로 핵심 키워드 포함 여부를 교차 확인합니다.</p>
+              </article>
+              <article>
+                <span>STEP 3</span>
+                <h4>Cross-Encoder 재정렬</h4>
+                <p>상위 20개 공고를 창업팀 정보와 공고 전문의 1:1 비교로 재평가해 실제 신청 가능성과 합격 가능성이 높은 Top 3를 정렬합니다.</p>
+              </article>
+              <article>
+                <span>STEP 4</span>
+                <h4>맞춤형 합격 가이드 생성</h4>
+                <p>최종 후보 공고 데이터만 LLM에 주입해 적합도 점수, 추천 사유, 필요 서류, 이번 주 액션플랜을 생성합니다.</p>
+              </article>
+            </div>
+            <div class="tech-note-panel">
+              <strong>Hallucination 최소화 포인트</strong>
+              <p>LLM이 모르는 공고를 상상해서 추천하지 않도록, 추천 대상은 필터링과 검색을 통과한 실제 공고 데이터로 제한하고 출처 확인이 가능하게 설계합니다.</p>
+            </div>
+          </article>
+
+          <article class="tech-panel" data-tech-panel="scoring">
+            <div class="tech-panel-heading">
+              <span>Institution Fit Score</span>
+              <h3>기관 추천은 자격 필터링 이후 다차원 점수로 정렬합니다.</h3>
+              <p>실제 연결이 어려운 기관은 먼저 제외하고, 남은 기관을 기술·단계·공간 정합성 기준으로 점수화합니다.</p>
+            </div>
+            <div class="tech-filter-grid">
+              <article>
+                <h4>1차: 자격 요건 필터링</h4>
+                <p>주소지 기반 관할 지자체, 접근 반경, 기관별 행정 규정, 공간 지원 KPI를 먼저 대조해 부적격 매칭을 차단합니다.</p>
+              </article>
+              <article>
+                <h4>현장 인터뷰 반영</h4>
+                <p>대학·공공기관의 공간 지원에서 “3개월 이내 사업자등록 필수”와 같은 성과 지표가 존재함을 확인하고 조건 필터에 반영합니다.</p>
+              </article>
+            </div>
+            <div class="score-equation">Fit Score = (S_tech x 0.4) + (S_stage x 0.4) + (S_space x 0.2)</div>
+            <div class="score-weight-grid">
+              <article><span>40%</span><h4>S_tech</h4><p>센터별 특화 분야와 창업팀 사업 요약본의 코사인 유사도</p></article>
+              <article><span>40%</span><h4>S_stage</h4><p>기관 보육 타깃과 창업팀 단계의 매트릭스 매핑 점수</p></article>
+              <article><span>20%</span><h4>S_space</h4><p>입주 공간, 실물 인프라, 공실 여부와 팀 수요의 매칭 점수</p></article>
+            </div>
+          </article>
+
+          <article class="tech-panel" data-tech-panel="disclosure">
+            <div class="tech-panel-heading">
+              <span>Disclosure Strategy</span>
+              <h3>신뢰성은 공개하고, 복제 가능한 핵심 로직은 보호합니다.</h3>
+              <p>심사위원 설득에 필요한 수준의 구조는 보여주되, 추천 품질을 좌우하는 세부 구현은 서비스 자산으로 남깁니다.</p>
+            </div>
+            <div class="disclosure-compare">
+              <article>
+                <h4>공개 가능한 내용</h4>
+                <ul>
+                  <li>추천 파이프라인의 단계와 입력 변수</li>
+                  <li>하드 조건 필터링 원칙과 데이터 출처 표시 방식</li>
+                  <li>기관 추천 가중치 구조와 Fit Score 산식</li>
+                  <li>심사위원이 신뢰성을 판단할 수 있는 예시 결과</li>
+                </ul>
+              </article>
+              <article>
+                <h4>비공개로 유지할 내용</h4>
+                <ul>
+                  <li>임베딩·재정렬 모델 세부 파라미터</li>
+                  <li>Cross-Encoder 피처와 내부 보정 로직</li>
+                  <li>전체 프롬프트, 데이터 스키마, 랭킹 튜닝 방식</li>
+                  <li>운영 데이터 기반 성능 개선 규칙</li>
+                </ul>
+              </article>
+            </div>
+            <div class="tech-note-panel">
+              <strong>발표용 문장</strong>
+              <p>StartFit은 AI가 추천을 “생성”하는 서비스가 아니라, 사용자의 창업 데이터와 실제 공고·기관 데이터를 검증 가능한 절차로 매칭해 실행 가능한 다음 액션으로 바꾸는 서비스입니다.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="validation" class="section-shell section-block">
+        <div class="section-heading">
+          <span>진단 결과 예시</span>
+          <h2>AI 진단이 탈락 신호와 합격 흐름을 구분합니다.</h2>
+          <p>핀넥트: 스타트링크 팀 데이터 예시본과 실제 우리팀 팀장의 A창업 입주기관 서류탈락 사례, B창업 입주기관 서류합격 사례를 함께 배치해 AI 진단이 정상 작동하는지 확인할 수 있게 정리했습니다.</p>
+        </div>
+        <div class="validation-proof-panel">
+          <div>
+            <span>AI 정상작동 검증 포인트</span>
+            <h3>탈락했던 서류에서는 부족 신호를 잡고, 컨설팅과 보완 이후 합격 사례에서는 개선된 준비도를 보여줍니다.</h3>
+            <p>팀장이 실제로 입주기관 서류에서 탈락한 뒤, 진단 결과를 바탕으로 자료를 보완하고 컨설팅을 거쳐 다른 입주센터 지원에서 합격한 흐름을 사례로 제시합니다.</p>
+          </div>
+          <ul>
+            <li><strong>진단 전</strong><span>A창업 입주기관 서류탈락 사례에서 보완이 필요한 준비도와 근거 부족을 포착</span></li>
+            <li><strong>진단 이후</strong><span>B창업 입주기관 서류합격 사례에서 보완된 시장검증·실행 근거를 반영</span></li>
+            <li><strong>팀 데이터</strong><span>핀넥트: 스타트링크 팀 데이터 예시본으로 동일한 5대 준비도 구조를 확인</span></li>
+          </ul>
+        </div>
+        <div class="validation-case-flow" aria-label="진단 결과 예시 분류">
+          <article class="validation-case-card team">
+            <span>우리팀 영역</span>
+            <h3>핀넥트: 스타트링크 팀 데이터 예시본</h3>
+            <p>우리 서비스가 팀 데이터를 5대 준비도, 최종 유형, 보완 액션으로 구조화하는 기본 예시입니다.</p>
+          </article>
+          <article class="validation-case-card before">
+            <span>진단 전 예시</span>
+            <h3>실제 우리팀 팀장의 A창업 입주기관 서류탈락 사례</h3>
+            <p>입주기관 심사에서 탈락했던 자료를 기준으로 AI가 부족한 근거와 우선 보완 항목을 잡아낸 사례입니다.</p>
+          </article>
+          <article class="validation-case-card after">
+            <span>진단 이후 예시</span>
+            <h3>실제 우리팀 팀장의 B창업 입주기관 서류합격 사례</h3>
+            <p>컨설팅과 서류 보완 이후 다른 입주센터 지원에서 합격한 자료를 기준으로 개선 흐름을 보여주는 사례입니다.</p>
+          </article>
+        </div>
+        <div class="validation-gallery-groups">
+          <article class="validation-gallery-group team">
+            <div class="gallery-group-heading">
+              <span>우리팀 영역</span>
+              <h3>핀넥트: 스타트링크 팀 데이터 예시본</h3>
+            </div>
+            <div class="validation-gallery">
+              <figure><img src="./assets/validation/our-team-summary.png" alt="핀넥트 스타트링크 팀 데이터 예시본 진단 요약" /><figcaption>핀넥트: 스타트링크 팀 데이터 예시본 · 진단 요약</figcaption></figure>
+              <figure><img src="./assets/validation/our-team-growth-stability-market.png" alt="핀넥트 스타트링크 팀 데이터 예시본 성장성 안정성 시장검증" /><figcaption>핀넥트: 스타트링크 팀 데이터 예시본 · 성장성·시장검증</figcaption></figure>
+              <figure><img src="./assets/validation/our-team-execution-support.png" alt="핀넥트 스타트링크 팀 데이터 예시본 실행 준비도 정책금융 준비도" /><figcaption>핀넥트: 스타트링크 팀 데이터 예시본 · 실행·정책금융</figcaption></figure>
+            </div>
+          </article>
+          <article class="validation-gallery-group before">
+            <div class="gallery-group-heading">
+              <span>진단 전 예시</span>
+              <h3>실제 우리팀 팀장의 A창업 입주기관 서류탈락 사례</h3>
+            </div>
+            <div class="validation-gallery">
+              <figure><img src="./assets/validation/pre-summary.png" alt="실제 우리팀 팀장의 A창업 입주기관 서류탈락 사례 진단 전 요약" /><figcaption>실제 우리팀 팀장의 A창업 입주기관 서류탈락 사례 · 진단 전 요약</figcaption></figure>
+              <figure><img src="./assets/validation/pre-growth-stability-market.png" alt="실제 우리팀 팀장의 A창업 입주기관 서류탈락 사례 진단 전 상세" /><figcaption>실제 우리팀 팀장의 A창업 입주기관 서류탈락 사례 · 진단 전 상세</figcaption></figure>
+              <figure><img src="./assets/validation/pre-execution-support.png" alt="실제 우리팀 팀장의 A창업 입주기관 서류탈락 사례 진단 전 실행 지원" /><figcaption>실제 우리팀 팀장의 A창업 입주기관 서류탈락 사례 · 진단 전 실행·지원</figcaption></figure>
+            </div>
+          </article>
+          <article class="validation-gallery-group after">
+            <div class="gallery-group-heading">
+              <span>진단 이후 예시</span>
+              <h3>실제 우리팀 팀장의 B창업 입주기관 서류합격 사례</h3>
+            </div>
+            <div class="validation-gallery">
+              <figure><img src="./assets/validation/post-summary.png" alt="실제 우리팀 팀장의 B창업 입주기관 서류합격 사례 진단 이후 요약" /><figcaption>실제 우리팀 팀장의 B창업 입주기관 서류합격 사례 · 진단 이후 요약</figcaption></figure>
+              <figure><img src="./assets/validation/post-growth-stability-market.png" alt="실제 우리팀 팀장의 B창업 입주기관 서류합격 사례 진단 이후 상세" /><figcaption>실제 우리팀 팀장의 B창업 입주기관 서류합격 사례 · 진단 이후 상세</figcaption></figure>
+              <figure><img src="./assets/validation/post-execution-support.png" alt="실제 우리팀 팀장의 B창업 입주기관 서류합격 사례 진단 이후 실행 지원" /><figcaption>실제 우리팀 팀장의 B창업 입주기관 서류합격 사례 · 진단 이후 실행·지원</figcaption></figure>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="data" class="section-shell section-block">
+        <div class="section-heading">
+          <span>데이터 기준</span>
+          <h2>데이터 수집과 점수화 근거를 핵심만 공개합니다.</h2>
+          <p>심사위원이 판단할 수 있는 구조는 공개하고, 서비스의 세부 평가 로직은 보호합니다.</p>
+        </div>
+        <div class="score-formula-panel">
+          <div>
+            <span>최종 창업 준비도 지수</span>
+            <h3>창업 준비도 = 안정성×0.20 + 성장성×0.20 + 시장검증도×0.25 + 정책금융 준비도×0.10 + 실행 준비도×0.25</h3>
+            <p>PSST 평가체계, NSF I-Corps의 고객발견, EIC Accelerator의 시장성·팀 역량·실행계획 기준을 참고했습니다. 초기 창업에서는 고객수요 실증과 실행 가능성이 중요하다고 보고 시장검증도와 실행 준비도에 가장 높은 비중을 두었습니다.</p>
+          </div>
+          <div class="weight-list" aria-label="창업 준비도 가중치">
+            <span>시장검증도 25%</span>
+            <span>실행 준비도 25%</span>
+            <span>안정성 20%</span>
+            <span>성장성 20%</span>
+            <span>정책금융 준비도 10%</span>
+          </div>
+        </div>
+        <div class="scoring-process" aria-label="창업 준비도 점수화 과정">
+          <article>
+            <span>01</span>
+            <h3>입력값 정규화</h3>
+            <p>창업 단계, 고객 수, MVP, 자금 상태를 같은 기준으로 정리합니다.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>근거 추출</h3>
+            <p>문제정의, 시장 근거, BM, 실행계획을 PSST 흐름으로 추출합니다.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>5대 지표 점수화</h3>
+            <p>정량 입력과 LLM 근거 평가를 5대 준비도로 나눕니다.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>가중 합산</h3>
+            <p>가중치를 적용해 최종 창업 준비도 지수로 합산합니다.</p>
+          </article>
+          <article>
+            <span>05</span>
+            <h3>유형과 액션 변환</h3>
+            <p>점수를 창업 유형과 우선 보완 액션으로 바꿉니다.</p>
+          </article>
+        </div>
+        <div class="data-source-grid">
+          <article>
+            <h3>사용자에게 받는 데이터</h3>
+            <p>창업 단계, 업종·지역, 팀 구성, 고객 반응, MVP 증빙, 보유자금, 월 고정비, 예상 매출을 입력받습니다.</p>
+            <em>활용: 시장검증도·실행 준비도·안정성 계산</em>
+          </article>
+          <article>
+            <h3>사업계획서에서 추출하는 데이터</h3>
+            <p>문제정의, 타깃 고객, 시장 근거, 차별성, BM, 자금 사용계획, 실행 로드맵을 LLM으로 구조화합니다.</p>
+            <em>활용: PSST 흐름과 보완 항목 도출</em>
+          </article>
+          <article>
+            <h3>공공데이터와 활용 가능 데이터</h3>
+            <p>K-Startup, 기업마당, KOSIS 창업기업동향, 기업생멸·생존율 데이터를 활용합니다.</p>
+            <em>활용: 지원사업 후보, 필요서류, 마감 리스크 안내</em>
+          </article>
+          <article>
+            <h3>기관 인터뷰로 검증한 지표</h3>
+            <p>고려대 크림슨창업지원단 인터뷰에서 본격 창업 단계에는 5대 진단 영역이 실무적으로 작동한다는 피드백을 받았습니다.</p>
+            <em>극초기 동아리 단계는 단계별 가중치 조정 필요</em>
+          </article>
+        </div>
+        <div class="scoring-preview">
+          <article>
+            <span>선정 기준</span>
+            <h3>PSST 기준으로 5대 지표를 설계했습니다.</h3>
+            <p>문제인식, 실현가능성, 성장전략, 팀 구성을 5대 준비도에 매핑했습니다.</p>
+          </article>
+          <article>
+            <span>참고용 공개 예시</span>
+            <h3>LLM 근거 평가는 0·35·70·100점의 4단계 루브릭을 사용합니다.</h3>
+            <p>미감지 0점, 언급 수준 35점, 일부 근거 70점, 수치·증빙·실행계획이 충분하면 100점으로 봅니다.</p>
+          </article>
+          <article>
+            <span>정량 예시</span>
+            <h3>자금 안정성은 Runway처럼 해석 가능한 지표를 함께 씁니다.</h3>
+            <p>보유자금과 월 고정비로 생존 가능 기간을 계산해 안정성 판단에 활용합니다.</p>
+          </article>
+        </div>
+        <div class="disclosure-panel">
+          <article>
+            <h3>심사위원에게 공개하는 범위</h3>
+            <p>데이터 출처, 5대 지표, 최종 공식, 대표 점수화 예시, 기관 인터뷰 검증 결과를 공개합니다.</p>
+          </article>
+          <article>
+            <h3>서비스 보호를 위해 비공개하는 범위</h3>
+            <p>전체 프롬프트, 세부 임계값, 보정 규칙, 추천 알고리즘, 기관 매칭 가중치는 공개하지 않습니다.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="safety" class="section-shell section-block">
+        <div class="section-heading">
+          <span>신뢰와 안전</span>
+          <h2>AI 진단 결과를 단정하지 않고, 공유와 해석을 분리합니다.</h2>
+        </div>
+        <div class="safety-grid">
+          <article><strong>Privacy Guard</strong><span>이름, 전화번호, 주소, 내부정보 등 민감정보를 먼저 감지하고 마스킹합니다.</span></article>
+          <article><strong>기관 공유 범위</strong><span>공유 안 함, 요약만 공유, 선택 항목 공유처럼 범위를 나누어 선택합니다.</span></article>
+          <article><strong>사람의 최종 판단</strong><span>AI 제안은 창업자와 기관 담당자가 검토할 근거를 정리하는 역할입니다.</span></article>
+          <article><strong>근거 중심 설명</strong><span>낮은 점수보다 어떤 고객검증, 자금계획, 사업계획 근거가 부족한지 보여줍니다.</span></article>
+        </div>
+      </section>
+
+      <section id="faq" class="section-shell section-block">
+        <div class="section-heading">
+          <span>자주 묻는 질문</span>
+          <h2>이 페이지가 어떤 자료인지 발표용 설명까지 정리했습니다.</h2>
+        </div>
+        <div class="accordion">
+          <details open><summary>이 페이지는 어떤 페이지인가요?</summary><p>FIN:NECT StartFit 발표에서 QR로 열어볼 수 있는 보조 자료 허브입니다. 발표를 대체하지 않고, 최신 MVP 화면과 근거를 추가 확인하는 용도입니다.</p></details>
+          <details><summary>진단 과정은 어디까지 포함하나요?</summary><p>데이터 저장 방식과 기관 공유 범위부터 창업 단계, MVP 링크, 시장검증·자금, 사업계획서, 기관 연결 조건 검사, 기관 지도 추천, 매칭 요청까지 포함합니다.</p></details>
+          <details><summary>AI 진단은 어떤 세부 탭이 있나요?</summary><p>아이디어 입력, 추가 질문, Multi-Agent 진단, PMF 검증, 리스크 히트맵으로 나뉩니다. 각 탭은 입력 보완, 종합 분석, 고객 검증, 위험 대응을 맡습니다.</p></details>
+          <details><summary>창업 준비도 점수는 어떤 기준인가요?</summary><p>PSST 흐름과 국내외 창업지원 평가체계를 참고해 안정성 20%, 성장성 20%, 시장검증도 25%, 정책금융 준비도 10%, 실행 준비도 25%로 산정합니다. 시장검증과 실행 준비도는 초기 창업 성과에 직접 연결된다고 보아 가장 높은 비중을 둡니다.</p></details>
+          <details><summary>개인정보는 어떻게 다루나요?</summary><p>Privacy Guard로 민감정보를 먼저 감지하고, 기관 공유 전에는 공유 범위와 개인 연락처 공개 여부를 별도로 확인합니다.</p></details>
+        </div>
+      </section>
+
+      <section id="mvp-link" class="section-shell section-block appendix-link-section">
+        <div class="appendix-link-panel">
+          <div>
+            <span>부록 · StartFit 바로가기</span>
+            <h2>StartFit 바로가기</h2>
+            <p>진단 입력부터 결과 대시보드까지 직접 확인할 수 있습니다.</p>
+          </div>
+          <div class="appendix-link-actions">
+            <a class="secondary-action" href="https://startfit-web.vercel.app/" target="_blank" rel="noopener">랜딩페이지 바로가기</a>
+            <a class="primary-action" href="https://startfit-web.vercel.app/founder/diagnosis/storage" target="_blank" rel="noopener">MVP 진단 시작하기</a>
+            <a class="secondary-action" href="https://startfit-web.vercel.app/founder/dashboard" target="_blank" rel="noopener">대시보드 바로가기</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer section-shell">
+      <strong>StartFit QR Evidence Hub</strong>
+      <span>FIN:NECT 발표 보조 자료</span>
+    </footer>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>

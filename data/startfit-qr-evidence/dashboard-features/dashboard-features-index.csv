@@ -1,0 +1,21 @@
+﻿순번,기능 묶음,상단 탭,세부 탭,화면명,QR 사이트 위치,화면 역할,주요 화면 내용,정리된 스크린샷,발표/보고서 활용 포인트
+1,대시보드,대시보드,요약,오늘의 창업 준비 상태,#dashboard-summary,"현재 창업 단계, 준비도 요약, 보완 액션, 기관 추천 가능성을 한 화면에서 확인하는 출발 화면","AI 진단 요약, 부족 항목 TOP 3, 이번 주 보완 액션, 아이디어 버전 변화",dashboard-features/screenshots/01-dashboard-summary.png,사용자가 지금 가장 먼저 보완해야 할 항목을 빠르게 파악하는 메인 화면으로 설명
+2,AI 진단,AI 진단,아이디어 입력,AI 진단 아이디어 입력,#dashboard-ai-idea,아이디어와 현재 상황을 입력하고 Privacy Guard로 민감 정보를 먼저 점검,"아이디어 정보, 현재 단계, 업종, 개인정보 검사, 입력 완성도",dashboard-features/screenshots/02-ai-idea-input.png,AI가 어떤 입력을 받아 진단을 시작하는지 보여줄 때 사용
+3,AI 진단,AI 진단,Multi-Agent 결과,AI가 분석한 창업 준비도 결과,#dashboard-ai-multiagent,"시장 분석, BM 분석, 지원사업 매칭 에이전트가 아이디어를 종합 진단","종합 점수, 5대 준비도, 에이전트별 점수, 보완 항목 TOP 3, 추천 액션",dashboard-features/screenshots/03-ai-multiagent-result.png,AI 진단이 다중 관점 평가와 보완 액션으로 이어짐을 설명할 때 사용
+4,AI 진단,AI 진단,PMF 검증,가상 고객 PMF 검증,#dashboard-ai-pmf,"AI 페르소나가 문제 공감도, 구매 의향, 거절 이유를 시뮬레이션","PMF 신호, 구매 의향, 문제 공감, 페르소나별 반응",dashboard-features/screenshots/04-ai-pmf.png,시장검증도 산정과 고객 반응 보완 근거로 사용
+5,AI 진단,AI 진단,리스크 히트맵,창업 리스크 히트맵,#dashboard-ai-risk,12개 핵심 위험 영역을 영향도와 발생 가능성으로 분류,"종합 리스크 지수, 고위험/중위험/저위험 분류, 리스크 TOP 12",dashboard-features/screenshots/05-ai-risk.png,AI가 점수뿐 아니라 우선 대응 리스크를 제시한다는 근거로 사용
+6,기관 추천,기관 추천,연결 조건,기관 연결 조건 검사,#dashboard-org,기관 연결 가능성을 먼저 검사하고 부족한 조건을 표시,"개인정보 동의, 아이디어 요약, PMF 신호, 정책금융 서류 보완 필요 항목",dashboard-features/screenshots/06-org-check.png,진단 결과가 기관 연결 준비도로 이어지는 화면으로 설명
+7,기관 추천,기관 추천,기관 지도,기관 지도 추천,#dashboard-org,위치와 적합도 기준으로 추천기관 후보를 탐색,"지도, 기관 목록, 매칭도, 거리, 추천 기준",dashboard-features/screenshots/07-org-map.png,지역 기반 기관 추천 기능을 보여줄 때 사용
+8,기관 추천,기관 추천,매칭 요청,기관 상세와 매칭 요청,#dashboard-org,기관 상세 정보를 확인하고 상담/매칭 요청으로 전환,"기관 프로필, 매칭도, AI 매칭 요청서, 공유 정보",dashboard-features/screenshots/08-org-detail.png,추천이 실제 상담 연결 행동으로 이어지는 마지막 단계로 설명
+9,지원사업 추천,지원사업 추천,전체,지원사업 추천 전체,#dashboard-programs-all,AI 진단 결과 기준으로 신청 가능한 지원사업을 적합도 순으로 정렬,"전체 지원사업, 적합도, 마감 D-day, 지원 한도, AI 추천 이유",dashboard-features/screenshots/09-programs-all.png,진단 결과가 지원사업 신청 후보로 전환되는 핵심 화면으로 설명
+10,지원사업 추천,지원사업 추천,사업화,사업화 지원사업 필터,#dashboard-programs-business,사업화 성격의 지원사업만 필터링해 비교,"예비창업패키지, 청년창업사관학교, 초기창업패키지, 적합도와 마감",dashboard-features/screenshots/10-programs-business.png,사업화 지원사업 후보 추천 근거로 사용
+11,지원사업 추천,지원사업 추천,정책자금,정책자금 지원사업 필터,#dashboard-programs-policy,정책자금 성격의 프로그램을 분리해 확인,"창업기반지원자금, 상시 여부, 최대 지원 한도, 적합도",dashboard-features/screenshots/11-programs-policy-fund.png,정책금융 준비도와 추천사업 연결을 설명할 때 사용
+12,지원사업 추천,지원사업 추천,R&D,R&D 지원사업 필터,#dashboard-programs-rnd,기술개발 과제 보유 여부와 R&D 지원사업 후보를 연결,"창업성장기술개발 디딤돌, R&D 분류, D-day, 적합도",dashboard-features/screenshots/12-programs-rnd.png,기술개발형 창업팀을 위한 추천 필터로 설명
+13,지원사업 추천,지원사업 추천,교육·멘토링,교육·멘토링 지원사업 필터,#dashboard-programs-mentoring,교육과 멘토링 중심의 지원사업을 분리해 확인,"신사업창업사관학교, 교육·멘토링 분류, 지원 내용, 적합도",dashboard-features/screenshots/13-programs-mentoring.png,초기 창업자의 역량 보완형 지원사업 추천 근거로 사용
+14,상담 관리,상담 관리,요약,상담 요약,#dashboard-consult,기관 상담 이후 핵심 기록과 다음 액션을 요약,"상담 일정, 강점, 보완 사항, 추천 지원사업, 기관 피드백",dashboard-features/screenshots/14-consult-summary.png,기관 상담이 기록과 실행 과제로 관리되는 화면으로 설명
+15,상담 관리,상담 관리,액션,상담 액션,#dashboard-consult,상담 이후 해야 할 일을 실행 단위로 분해,"가격 정책, 타깃 고객 세그먼트, MVP 테스트, 사업계획서 보완 과제",dashboard-features/screenshots/15-consult-action.png,컨설팅 후 실제 실행 관리 기능을 보여줄 때 사용
+16,상담 관리,상담 관리,용어 해석,상담 용어 해석,#dashboard-consult,상담 중 나온 창업지원/정책금융 용어를 쉽게 정리,"정책자금, RAG 매칭, 사업화 자금, 가점 요건",dashboard-features/screenshots/16-consult-glossary.png,초기 창업자가 기관 상담 내용을 이해하도록 돕는 기능으로 설명
+17,상담 관리,상담 관리,기관 피드백,기관 피드백,#dashboard-consult,기관 피드백을 구조화해 다음 보완 방향으로 연결,"담당자 피드백, 창업자 답변, 만족도, 최종 매칭 동의",dashboard-features/screenshots/17-consult-feedback.png,외부 피드백을 진단과 보완 액션에 다시 연결하는 구조로 설명
+18,성장 추적,성장 추적,월간 추적,성장 추적 월간 화면,#dashboard-growth,3·6·9·12개월 단위로 점수와 지표 변화를 추적,"성장 준비도, 고객 인터뷰, MVP 사용자, 상담 진행, 지원사업 준비도",dashboard-features/screenshots/18-growth-monthly.png,진단이 일회성이 아니라 성장 관리로 이어짐을 보여줄 때 사용
+19,성장 추적,성장 추적,시장 내 위치,유사 창업팀 비교,#dashboard-growth,유사 창업팀과 비교해 현재 위치와 보완 우선순위를 파악,"상위 비율, 클러스터, 비교 팀 수, 실패 원인 패턴, 지표 비교",dashboard-features/screenshots/19-growth-peers.png,상대적 준비도와 성장 위치를 설명할 때 사용
+20,마이페이지,마이페이지,버전 관리,마이페이지,#dashboard-mypage,"아이디어 버전, 진단 점수 변화, 공유 설정, PDF 내보내기를 관리","버전 타임라인, 버전 비교, 점수 변화, 공유 이력",dashboard-features/screenshots/20-mypage.png,진단 결과를 포트폴리오와 기관 제출 자료로 관리하는 개인 작업실로 설명
