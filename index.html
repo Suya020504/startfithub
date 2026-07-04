@@ -179,6 +179,7 @@
         <div class="feature-tabs" role="tablist" aria-label="대시보드 기능 탭">
           <button class="feature-tab active" type="button" role="tab" aria-selected="true" data-feature-tab="summary" data-anchor="dashboard-summary">대시보드</button>
           <button class="feature-tab" type="button" role="tab" aria-selected="false" data-feature-tab="ai" data-anchor="dashboard-ai">AI 진단</button>
+          <button class="feature-tab" type="button" role="tab" aria-selected="false" data-feature-tab="followup" data-anchor="dashboard-followup">AI 추가질문</button>
           <button class="feature-tab" type="button" role="tab" aria-selected="false" data-feature-tab="org" data-anchor="dashboard-org">기관 추천</button>
           <button class="feature-tab" type="button" role="tab" aria-selected="false" data-feature-tab="programs" data-anchor="dashboard-programs">지원사업 추천</button>
           <button class="feature-tab" type="button" role="tab" aria-selected="false" data-feature-tab="consult" data-anchor="dashboard-consult">상담 관리</button>
@@ -210,6 +211,20 @@
                 <article><strong>리스크 히트맵</strong><span>12대 위험 영역을 발생 가능성과 영향도로 분류해 우선 대응 리스크를 보여줍니다.</span></article>
               </div>
               <dl class="detail-list"><dt>세부 탭/경로</dt><dd>아이디어 입력, Multi-Agent 결과, PMF 검증, 리스크 히트맵</dd><dt>역할</dt><dd>입력 데이터를 안전하게 구조화한 뒤 진단 결과, 고객 반응, 위험요인을 다음 액션으로 연결합니다.</dd></dl>
+            </div>
+          </article>
+          <article class="feature-panel" data-feature-panel="followup">
+            <div class="feature-media"><img class="feature-main-image" src="./assets/live/ai-diagnosis-view/06-followup-chat.png" alt="AI 추가질문 대화 화면" /></div>
+            <div class="feature-copy">
+              <h3>AI 추가질문</h3>
+              <p>진단에 부족한 정보를 AI 코치와의 대화로 채우고, 답변이 실시간으로 진단 항목과 정확도를 끌어올립니다.</p>
+              <div class="substep-list" aria-label="AI 추가질문 세부 구성 설명">
+                <article><strong>보완이 필요한 정보</strong><span>시장 규모·수익 모델·초기 고객 접근 등 부족 항목을 상태별로 표시하고 진단 정확도를 함께 보여줍니다.</span></article>
+                <article><strong>Start Fit 코치 대화</strong><span>정확도를 높이는 데 필요한 질문만 이어서 묻고, 추천 답변 칩으로 빠르게 응답할 수 있습니다.</span></article>
+                <article><strong>답변이 채우는 진단 항목</strong><span>성장성·시장검증도·실행준비도·정책금융 준비도가 답변에 따라 실시간으로 갱신됩니다.</span></article>
+                <article><strong>답변 요약과 리스크</strong><span>최근 답변을 요약하고, AI가 추정한 리스크를 정리해 다음 보완 과제로 연결합니다.</span></article>
+              </div>
+              <dl class="detail-list"><dt>주요 정보</dt><dd>입력 완성도, 진단 정확도, 보완 필요 항목, 추정 리스크</dd><dt>역할</dt><dd>대화형 문답으로 부족한 진단 정보를 채워 진단 결과의 정확도를 높입니다.</dd></dl>
             </div>
           </article>
           <article class="feature-panel" data-feature-panel="org">
